@@ -9,7 +9,7 @@ import WhyImg from '../assets/why-img.png'
 const Hero = () => {
   return (
     <div className='bg-[#0D0D2B] w-full h-full'>
-        <div className='text-white md:grid grid-cols-2 w-[80%] md:w-[60%] mx-auto py-10'>
+        <div className='text-white md:grid grid-cols-2 w-[80%] md:w-[60%] mx-auto py-10 heropage'>
             <div className='my-20'>
                 <div className='flex rounded-full bg-gray-700 w-[280px] my-4 text-xs'>
                     <button className='bg-white text-black text-center'>75% SAVE</button>
@@ -26,9 +26,7 @@ const Hero = () => {
             <div>
                 <img className='heroimg' src={HeroImg} alt='Hero logo' />
             </div>
-            <div>
-
-            </div>
+            
         </div>
 
         <div className='flex flex-col text-white w-[80%] md:w-[60%] py-10 mx-auto'>
@@ -61,7 +59,7 @@ const Hero = () => {
                     </div>
                 </div>               
             </div>
-            <div className='md:grid grid-cols-2 my-10'>
+            <div className='md:grid grid-cols-2 my-10 why'>
                 <div>
                     <img src={WhyImg} alt='why img' />
                 </div>

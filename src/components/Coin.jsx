@@ -7,7 +7,7 @@ import { IoIosArrowDropright } from 'react-icons/io'
 const Coin = () => {
   return (
     <div className='w-full h-full text-black'>
-        <div className='w-[80%] md:w-[60%] mx-auto'>
+        <div className='w-[80%] md:w-[60%] mx-auto coinpage'>
             <div className='text-center pt-40 pb-20 md:w-[500px] mx-auto content'>
                 <h1 className='font-bold text-2xl md:text-3xl'>Trade Securely And Market The High Growth Cryptocurrencies.</h1>
             </div>
